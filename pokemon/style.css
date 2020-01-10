@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+
+  background-image: url("./pokemon_wallpaper.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#pokemon-logo {
+  width: 550px;
+  height: 230px;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 1em 2em;
+  border: 0.1em solid blue;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  color: yellow;
+  background-color: royalblue;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.buttons:active {
+  box-shadow: 0 5px rgb(76, 193, 251);
+  transform: translateY(4px);
+}
+
+#pokemon-div {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.659);
+  border: 5px solid royalblue;
+  border-radius: 20px;
+}
+
+#pokemon-names {
+  display: inline-block;
+  width: 50vw;
+  border-right: 2px solid royalblue;
+}
+
+#pokemon-names p {
+  font-family: "Finger Paint", cursive;
+  text-transform: uppercase;
+  color: black;
+}
+
+#pokemon-names span {
+  width: 80px;
+  height: 20px;
+  font-size: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  display: inline-block;
+  padding: 1em 2em;
+  border: 0.1em solid blue;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  color: yellow;
+  background-color: royalblue;
+  text-align: center;
+}
+
+#pokemon-names span:active {
+  box-shadow: 0 5px rgb(76, 193, 251);
+  transform: translateY(4px);
+}
+
+#pokemon-info {
+  width: 50vw;
+  border-left: 2px solid royalblue;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
